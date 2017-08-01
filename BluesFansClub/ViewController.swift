@@ -52,7 +52,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("Git Setting Up")
+        print("You finished setting up Git")
         
         navigationTableView.delegate = self
         
