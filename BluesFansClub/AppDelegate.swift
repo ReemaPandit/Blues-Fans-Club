@@ -7,14 +7,32 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
+    override init()
+    {
+        
+        FirebaseApp.configure()
+        
+        
+        Database.database().isPersistenceEnabled = true
+        
+        Database.database().reference()
+    }
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+          UINavigationBar.appearance().barTintColor = UIColor.init(red: 3/255, green: 70/255, blue: 148/255, alpha: 1.0)
+       
+          UINavigationBar.appearance().tintColor = UIColor.white //for item and back button color
+        
+          UIApplication.shared.statusBarView?.backgroundColor = UIColor.init(red: 49/255, green: 195/255, blue: 231/255, alpha: 1.0)    
+
         // Override point for customization after application launch.
         return true
     }
@@ -42,5 +60,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+extension UIApplication {
+    var statusBarView: UIView? {
+        return value(forKey: "statusBar") as? UIView
+    }
 }
 

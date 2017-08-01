@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C41B6D2F1F163C1000A9B9C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C41B6D2E1F163C1000A9B9C2 /* GoogleService-Info.plist */; };
+		C44922F41F25D05800583018 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44922F31F25D05800583018 /* HelpViewController.swift */; };
+		C44922F61F25D12400583018 /* HelpItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44922F51F25D12400583018 /* HelpItem.swift */; };
+		C44922F91F25D36200583018 /* HelpCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44922F71F25D36200583018 /* HelpCellTableViewCell.swift */; };
+		C44922FA1F25D36200583018 /* HelpCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44922F81F25D36200583018 /* HelpCellTableViewCell.xib */; };
+		C44922FC1F26075900583018 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44922FB1F26075900583018 /* History.swift */; };
+		C44922FE1F260B0700583018 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44922FD1F260B0700583018 /* Owner.swift */; };
+		C44923001F260B3200583018 /* Management.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44922FF1F260B3200583018 /* Management.swift */; };
+		C44923021F260B6900583018 /* StadiumInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44923011F260B6900583018 /* StadiumInfo.swift */; };
+		C47B1C538FD0E5BF02631914 /* Pods_BluesFansClub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68066DD4BF8AFBEFFF529FC2 /* Pods_BluesFansClub.framework */; };
 		C486D9841F160ABB00657D4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486D9831F160ABB00657D4C /* AppDelegate.swift */; };
 		C486D9861F160ABB00657D4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486D9851F160ABB00657D4C /* ViewController.swift */; };
 		C486D9891F160ABB00657D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C486D9871F160ABB00657D4C /* Main.storyboard */; };
@@ -14,6 +24,35 @@
 		C486D98E1F160ABB00657D4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C486D98C1F160ABB00657D4C /* LaunchScreen.storyboard */; };
 		C486D9991F160ABB00657D4C /* BluesFansClubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486D9981F160ABB00657D4C /* BluesFansClubTests.swift */; };
 		C486D9A41F160ABB00657D4C /* BluesFansClubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486D9A31F160ABB00657D4C /* BluesFansClubUITests.swift */; };
+		C486D9B21F16159E00657D4C /* NewsTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486D9B11F16159E00657D4C /* NewsTitleViewController.swift */; };
+		C486D9B51F1626CE00657D4C /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486D9B31F1626CE00657D4C /* NewsTableViewCell.swift */; };
+		C486D9B61F1626CE00657D4C /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C486D9B41F1626CE00657D4C /* NewsTableViewCell.xib */; };
+		C486D9B81F162A5B00657D4C /* DetailedNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486D9B71F162A5B00657D4C /* DetailedNewsViewController.swift */; };
+		C497CC311F20D01F0048717B /* Chants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C497CC301F20D01F0048717B /* Chants.swift */; };
+		C4AD87FC1F16426D0066F18C /* NewsItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AD87FB1F16426D0066F18C /* NewsItems.swift */; };
+		C4B343691F1E302E009CB7F5 /* CurrentSquadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B343681F1E302E009CB7F5 /* CurrentSquadViewController.swift */; };
+		C4C0268F1F21F0C3009012BC /* MainTableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C0268D1F21F0C3009012BC /* MainTableTableViewCell.swift */; };
+		C4C026901F21F0C3009012BC /* MainTableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4C0268E1F21F0C3009012BC /* MainTableTableViewCell.xib */; };
+		C4C026921F21F8D2009012BC /* CurrentSquad.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C026911F21F8D2009012BC /* CurrentSquad.swift */; };
+		C4C0CC421F1F2B5000D2EE7F /* AboutClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C0CC411F1F2B5000D2EE7F /* AboutClub.swift */; };
+		C4C216511F271B40008C0D38 /* PrivacyPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C216501F271B40008C0D38 /* PrivacyPolicy.swift */; };
+		C4C216551F271D91008C0D38 /* TermsAndConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C216541F271D91008C0D38 /* TermsAndConditions.swift */; };
+		C4C2C8091F28682F000D0B37 /* AboutClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C2C8081F28682F000D0B37 /* AboutClubViewController.swift */; };
+		C4C2C80D1F2869AA000D0B37 /* ChantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C2C80C1F2869AA000D0B37 /* ChantsViewController.swift */; };
+		C4C2C80F1F287170000D0B37 /* ManagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C2C80E1F287170000D0B37 /* ManagementViewController.swift */; };
+		C4C2C8111F287181000D0B37 /* StadiumInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C2C8101F287181000D0B37 /* StadiumInfoViewController.swift */; };
+		C4C2C8131F287195000D0B37 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C2C8121F287195000D0B37 /* HistoryViewController.swift */; };
+		C4C2C8151F287D2D000D0B37 /* AboutOwnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C2C8141F287D2D000D0B37 /* AboutOwnerViewController.swift */; };
+		C4C30EAA1F1C8824009FD0BB /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C30EA91F1C8824009FD0BB /* AboutUsViewController.swift */; };
+		C4C30EAC1F1C894F009FD0BB /* AboutUsItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C30EAB1F1C894F009FD0BB /* AboutUsItems.swift */; };
+		C4C30EAE1F1C967A009FD0BB /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C30EAD1F1C967A009FD0BB /* FeedbackViewController.swift */; };
+		C4CDA8761F17434C00753215 /* FixturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDA8751F17434C00753215 /* FixturesViewController.swift */; };
+		C4CDA8791F17454700753215 /* FixturesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDA8771F17454700753215 /* FixturesTableViewCell.swift */; };
+		C4CDA87A1F17454700753215 /* FixturesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4CDA8781F17454700753215 /* FixturesTableViewCell.xib */; };
+		C4CDA87C1F174C5200753215 /* fixturesItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDA87B1F174C5200753215 /* fixturesItems.swift */; };
+		C4CDA87E1F1760A900753215 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDA87D1F1760A900753215 /* VideosViewController.swift */; };
+		C4CDA8801F1768C500753215 /* CommentaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDA87F1F1768C500753215 /* CommentaryViewController.swift */; };
+		C4CDA8821F176CE800753215 /* CommentaryItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDA8811F176CE800753215 /* CommentaryItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +73,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5EA6FE91A2F1FBB40BFF2DF0 /* Pods-BluesFansClub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluesFansClub.release.xcconfig"; path = "Pods/Target Support Files/Pods-BluesFansClub/Pods-BluesFansClub.release.xcconfig"; sourceTree = "<group>"; };
+		68066DD4BF8AFBEFFF529FC2 /* Pods_BluesFansClub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BluesFansClub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1347852F5325EC2B356A437 /* Pods-BluesFansClub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluesFansClub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BluesFansClub/Pods-BluesFansClub.debug.xcconfig"; sourceTree = "<group>"; };
+		C41B6D2E1F163C1000A9B9C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C44922F31F25D05800583018 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		C44922F51F25D12400583018 /* HelpItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpItem.swift; sourceTree = "<group>"; };
+		C44922F71F25D36200583018 /* HelpCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpCellTableViewCell.swift; sourceTree = "<group>"; };
+		C44922F81F25D36200583018 /* HelpCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpCellTableViewCell.xib; sourceTree = "<group>"; };
+		C44922FB1F26075900583018 /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		C44922FD1F260B0700583018 /* Owner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
+		C44922FF1F260B3200583018 /* Management.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Management.swift; sourceTree = "<group>"; };
+		C44923011F260B6900583018 /* StadiumInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StadiumInfo.swift; sourceTree = "<group>"; };
 		C486D9801F160ABB00657D4C /* BluesFansClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluesFansClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C486D9831F160ABB00657D4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C486D9851F160ABB00657D4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +98,35 @@
 		C486D99F1F160ABB00657D4C /* BluesFansClubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluesFansClubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C486D9A31F160ABB00657D4C /* BluesFansClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluesFansClubUITests.swift; sourceTree = "<group>"; };
 		C486D9A51F160ABB00657D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C486D9B11F16159E00657D4C /* NewsTitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTitleViewController.swift; sourceTree = "<group>"; };
+		C486D9B31F1626CE00657D4C /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		C486D9B41F1626CE00657D4C /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		C486D9B71F162A5B00657D4C /* DetailedNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedNewsViewController.swift; sourceTree = "<group>"; };
+		C497CC301F20D01F0048717B /* Chants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chants.swift; sourceTree = "<group>"; };
+		C4AD87FB1F16426D0066F18C /* NewsItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsItems.swift; sourceTree = "<group>"; };
+		C4B343681F1E302E009CB7F5 /* CurrentSquadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentSquadViewController.swift; sourceTree = "<group>"; };
+		C4C0268D1F21F0C3009012BC /* MainTableTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableTableViewCell.swift; sourceTree = "<group>"; };
+		C4C0268E1F21F0C3009012BC /* MainTableTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableTableViewCell.xib; sourceTree = "<group>"; };
+		C4C026911F21F8D2009012BC /* CurrentSquad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentSquad.swift; sourceTree = "<group>"; };
+		C4C0CC411F1F2B5000D2EE7F /* AboutClub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutClub.swift; sourceTree = "<group>"; };
+		C4C216501F271B40008C0D38 /* PrivacyPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyPolicy.swift; sourceTree = "<group>"; };
+		C4C216541F271D91008C0D38 /* TermsAndConditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsAndConditions.swift; sourceTree = "<group>"; };
+		C4C2C8081F28682F000D0B37 /* AboutClubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutClubViewController.swift; sourceTree = "<group>"; };
+		C4C2C80C1F2869AA000D0B37 /* ChantsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChantsViewController.swift; sourceTree = "<group>"; };
+		C4C2C80E1F287170000D0B37 /* ManagementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagementViewController.swift; sourceTree = "<group>"; };
+		C4C2C8101F287181000D0B37 /* StadiumInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StadiumInfoViewController.swift; sourceTree = "<group>"; };
+		C4C2C8121F287195000D0B37 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		C4C2C8141F287D2D000D0B37 /* AboutOwnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutOwnerViewController.swift; sourceTree = "<group>"; };
+		C4C30EA91F1C8824009FD0BB /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		C4C30EAB1F1C894F009FD0BB /* AboutUsItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsItems.swift; sourceTree = "<group>"; };
+		C4C30EAD1F1C967A009FD0BB /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		C4CDA8751F17434C00753215 /* FixturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixturesViewController.swift; sourceTree = "<group>"; };
+		C4CDA8771F17454700753215 /* FixturesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixturesTableViewCell.swift; sourceTree = "<group>"; };
+		C4CDA8781F17454700753215 /* FixturesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FixturesTableViewCell.xib; sourceTree = "<group>"; };
+		C4CDA87B1F174C5200753215 /* fixturesItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fixturesItems.swift; sourceTree = "<group>"; };
+		C4CDA87D1F1760A900753215 /* VideosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
+		C4CDA87F1F1768C500753215 /* CommentaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentaryViewController.swift; sourceTree = "<group>"; };
+		C4CDA8811F176CE800753215 /* CommentaryItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentaryItems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C47B1C538FD0E5BF02631914 /* Pods_BluesFansClub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +155,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		362596A407E7C4C702184406 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1347852F5325EC2B356A437 /* Pods-BluesFansClub.debug.xcconfig */,
+				5EA6FE91A2F1FBB40BFF2DF0 /* Pods-BluesFansClub.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B226179D6BF0FD402BD9C57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68066DD4BF8AFBEFFF529FC2 /* Pods_BluesFansClub.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C486D9771F160ABB00657D4C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +179,8 @@
 				C486D9971F160ABB00657D4C /* BluesFansClubTests */,
 				C486D9A21F160ABB00657D4C /* BluesFansClubUITests */,
 				C486D9811F160ABB00657D4C /* Products */,
+				362596A407E7C4C702184406 /* Pods */,
+				3B226179D6BF0FD402BD9C57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +198,31 @@
 			isa = PBXGroup;
 			children = (
 				C486D9831F160ABB00657D4C /* AppDelegate.swift */,
+				C4CDA8741F1742E100753215 /* ModalClass */,
 				C486D9851F160ABB00657D4C /* ViewController.swift */,
+				C486D9B31F1626CE00657D4C /* NewsTableViewCell.swift */,
+				C486D9B41F1626CE00657D4C /* NewsTableViewCell.xib */,
+				C486D9B11F16159E00657D4C /* NewsTitleViewController.swift */,
+				C4CDA8771F17454700753215 /* FixturesTableViewCell.swift */,
+				C4CDA8781F17454700753215 /* FixturesTableViewCell.xib */,
+				C4CDA8751F17434C00753215 /* FixturesViewController.swift */,
+				C4C0268D1F21F0C3009012BC /* MainTableTableViewCell.swift */,
+				C4C0268E1F21F0C3009012BC /* MainTableTableViewCell.xib */,
+				C44922F71F25D36200583018 /* HelpCellTableViewCell.swift */,
+				C44922F81F25D36200583018 /* HelpCellTableViewCell.xib */,
+				C4C30EA91F1C8824009FD0BB /* AboutUsViewController.swift */,
+				C486D9B71F162A5B00657D4C /* DetailedNewsViewController.swift */,
+				C4CDA87F1F1768C500753215 /* CommentaryViewController.swift */,
+				C4C30EAD1F1C967A009FD0BB /* FeedbackViewController.swift */,
+				C44922F31F25D05800583018 /* HelpViewController.swift */,
+				C4C2C8081F28682F000D0B37 /* AboutClubViewController.swift */,
+				C4CDA87D1F1760A900753215 /* VideosViewController.swift */,
+				C4C2C80C1F2869AA000D0B37 /* ChantsViewController.swift */,
+				C4C2C80B1F286976000D0B37 /* AboutClub */,
 				C486D9871F160ABB00657D4C /* Main.storyboard */,
 				C486D98A1F160ABB00657D4C /* Assets.xcassets */,
 				C486D98C1F160ABB00657D4C /* LaunchScreen.storyboard */,
+				C41B6D2E1F163C1000A9B9C2 /* GoogleService-Info.plist */,
 				C486D98F1F160ABB00657D4C /* Info.plist */,
 			);
 			path = BluesFansClub;
@@ -125,6 +246,39 @@
 			path = BluesFansClubUITests;
 			sourceTree = "<group>";
 		};
+		C4C2C80B1F286976000D0B37 /* AboutClub */ = {
+			isa = PBXGroup;
+			children = (
+				C4B343681F1E302E009CB7F5 /* CurrentSquadViewController.swift */,
+				C4C2C80E1F287170000D0B37 /* ManagementViewController.swift */,
+				C4C2C8101F287181000D0B37 /* StadiumInfoViewController.swift */,
+				C4C2C8121F287195000D0B37 /* HistoryViewController.swift */,
+				C4C2C8141F287D2D000D0B37 /* AboutOwnerViewController.swift */,
+			);
+			name = AboutClub;
+			sourceTree = "<group>";
+		};
+		C4CDA8741F1742E100753215 /* ModalClass */ = {
+			isa = PBXGroup;
+			children = (
+				C4AD87FB1F16426D0066F18C /* NewsItems.swift */,
+				C4CDA87B1F174C5200753215 /* fixturesItems.swift */,
+				C4CDA8811F176CE800753215 /* CommentaryItems.swift */,
+				C4C30EAB1F1C894F009FD0BB /* AboutUsItems.swift */,
+				C4C0CC411F1F2B5000D2EE7F /* AboutClub.swift */,
+				C497CC301F20D01F0048717B /* Chants.swift */,
+				C4C026911F21F8D2009012BC /* CurrentSquad.swift */,
+				C44922F51F25D12400583018 /* HelpItem.swift */,
+				C44922FB1F26075900583018 /* History.swift */,
+				C44922FD1F260B0700583018 /* Owner.swift */,
+				C44922FF1F260B3200583018 /* Management.swift */,
+				C44923011F260B6900583018 /* StadiumInfo.swift */,
+				C4C216501F271B40008C0D38 /* PrivacyPolicy.swift */,
+				C4C216541F271D91008C0D38 /* TermsAndConditions.swift */,
+			);
+			name = ModalClass;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C486D9A81F160ABB00657D4C /* Build configuration list for PBXNativeTarget "BluesFansClub" */;
 			buildPhases = (
+				8FF9965B2A4DA58D058A7F7A /* [CP] Check Pods Manifest.lock */,
 				C486D97C1F160ABB00657D4C /* Sources */,
 				C486D97D1F160ABB00657D4C /* Frameworks */,
 				C486D97E1F160ABB00657D4C /* Resources */,
+				3B0EEE19EF74651389ECA7FC /* [CP] Embed Pods Frameworks */,
+				EEB6434F275ACA5D4774D2D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,8 +350,7 @@
 				TargetAttributes = {
 					C486D97F1F160ABB00657D4C = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 5MQC4227GN;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					C486D9931F160ABB00657D4C = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -235,8 +391,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C41B6D2F1F163C1000A9B9C2 /* GoogleService-Info.plist in Resources */,
 				C486D98E1F160ABB00657D4C /* LaunchScreen.storyboard in Resources */,
 				C486D98B1F160ABB00657D4C /* Assets.xcassets in Resources */,
+				C4C026901F21F0C3009012BC /* MainTableTableViewCell.xib in Resources */,
+				C4CDA87A1F17454700753215 /* FixturesTableViewCell.xib in Resources */,
+				C486D9B61F1626CE00657D4C /* NewsTableViewCell.xib in Resources */,
+				C44922FA1F25D36200583018 /* HelpCellTableViewCell.xib in Resources */,
 				C486D9891F160ABB00657D4C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +418,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B0EEE19EF74651389ECA7FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BluesFansClub/Pods-BluesFansClub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FF9965B2A4DA58D058A7F7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEB6434F275ACA5D4774D2D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BluesFansClub/Pods-BluesFansClub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C486D97C1F160ABB00657D4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4CDA8801F1768C500753215 /* CommentaryViewController.swift in Sources */,
+				C4C30EAA1F1C8824009FD0BB /* AboutUsViewController.swift in Sources */,
+				C44922F91F25D36200583018 /* HelpCellTableViewCell.swift in Sources */,
+				C4CDA8821F176CE800753215 /* CommentaryItems.swift in Sources */,
+				C4CDA87E1F1760A900753215 /* VideosViewController.swift in Sources */,
+				C4B343691F1E302E009CB7F5 /* CurrentSquadViewController.swift in Sources */,
+				C4C30EAC1F1C894F009FD0BB /* AboutUsItems.swift in Sources */,
+				C497CC311F20D01F0048717B /* Chants.swift in Sources */,
+				C4C0268F1F21F0C3009012BC /* MainTableTableViewCell.swift in Sources */,
+				C44923001F260B3200583018 /* Management.swift in Sources */,
+				C4C216511F271B40008C0D38 /* PrivacyPolicy.swift in Sources */,
+				C44922FC1F26075900583018 /* History.swift in Sources */,
+				C4CDA8761F17434C00753215 /* FixturesViewController.swift in Sources */,
 				C486D9861F160ABB00657D4C /* ViewController.swift in Sources */,
+				C486D9B21F16159E00657D4C /* NewsTitleViewController.swift in Sources */,
+				C44922FE1F260B0700583018 /* Owner.swift in Sources */,
+				C44922F41F25D05800583018 /* HelpViewController.swift in Sources */,
+				C4CDA8791F17454700753215 /* FixturesTableViewCell.swift in Sources */,
+				C486D9B51F1626CE00657D4C /* NewsTableViewCell.swift in Sources */,
+				C4AD87FC1F16426D0066F18C /* NewsItems.swift in Sources */,
+				C4C2C8111F287181000D0B37 /* StadiumInfoViewController.swift in Sources */,
+				C486D9B81F162A5B00657D4C /* DetailedNewsViewController.swift in Sources */,
+				C4C2C8151F287D2D000D0B37 /* AboutOwnerViewController.swift in Sources */,
+				C4C2C80D1F2869AA000D0B37 /* ChantsViewController.swift in Sources */,
+				C4C2C80F1F287170000D0B37 /* ManagementViewController.swift in Sources */,
+				C4C216551F271D91008C0D38 /* TermsAndConditions.swift in Sources */,
+				C44922F61F25D12400583018 /* HelpItem.swift in Sources */,
+				C4CDA87C1F174C5200753215 /* fixturesItems.swift in Sources */,
+				C44923021F260B6900583018 /* StadiumInfo.swift in Sources */,
+				C4C2C8091F28682F000D0B37 /* AboutClubViewController.swift in Sources */,
+				C4C30EAE1F1C967A009FD0BB /* FeedbackViewController.swift in Sources */,
+				C4C026921F21F8D2009012BC /* CurrentSquad.swift in Sources */,
 				C486D9841F160ABB00657D4C /* AppDelegate.swift in Sources */,
+				C4C2C8131F287195000D0B37 /* HistoryViewController.swift in Sources */,
+				C4C0CC421F1F2B5000D2EE7F /* AboutClub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,28 +657,32 @@
 		};
 		C486D9A91F160ABB00657D4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1347852F5325EC2B356A437 /* Pods-BluesFansClub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5MQC4227GN;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BluesFansClub/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.infinitysports.BluesFansClub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		C486D9AA1F160ABB00657D4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EA6FE91A2F1FBB40BFF2DF0 /* Pods-BluesFansClub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5MQC4227GN;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BluesFansClub/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.infinitysports.BluesFansClub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -518,6 +764,7 @@
 				C486D9AA1F160ABB00657D4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C486D9AB1F160ABB00657D4C /* Build configuration list for PBXNativeTarget "BluesFansClubTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +773,7 @@
 				C486D9AD1F160ABB00657D4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C486D9AE1F160ABB00657D4C /* Build configuration list for PBXNativeTarget "BluesFansClubUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +782,7 @@
 				C486D9B01F160ABB00657D4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
